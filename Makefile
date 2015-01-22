@@ -4,6 +4,7 @@ include theos/makefiles/common.mk
 
 TWEAK_NAME = SpotCall
 SpotCall_FILES = Tweak.xm
+SpotCall_FRAMEWORKS = UIKit
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
